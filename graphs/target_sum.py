@@ -1,3 +1,4 @@
+# TLE with regular DFS, DP is needed
 # Imagine as a decision tree with (index = 0, total = 0)
 # 2 possible child nodes - index + 1, total +- nums[index]
 
