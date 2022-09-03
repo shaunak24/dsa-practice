@@ -1,3 +1,4 @@
+# In place updation of array using two-pointer technique
 class Solution:
 
     def removeDuplicates(self, nums) -> int:
