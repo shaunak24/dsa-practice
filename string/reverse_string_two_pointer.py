@@ -1,4 +1,5 @@
 class Solution:
+
     def reverseString(self, s) -> None:
         '''
         Do not return anything, modify s in-place instead.
@@ -9,6 +10,7 @@ class Solution:
             start += 1
             end -= 1
 
+
 s = Solution()
-print(s.reverseString(['h','e','l','l','o']))
-print(s.reverseString(['H','a','n','n','a','h']))
+print(s.reverseString(['h', 'e', 'l', 'l', 'o']))
+print(s.reverseString(['H', 'a', 'n', 'n', 'a', 'h']))
