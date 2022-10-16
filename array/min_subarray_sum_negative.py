@@ -3,8 +3,10 @@ from collections import deque
 # Time - O(N)
 # Space - O(N)
 
+
 class Solution:
-    def shortestSubarray(self, nums: List[int], k: int) -> int:
+
+    def shortestSubarray(self, nums) -> int:
         curr_sum, min_len = 0, float('inf')
         q = deque()
         q.append([0, 0])
